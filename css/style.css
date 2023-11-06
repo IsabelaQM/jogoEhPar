@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Orbitron&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,500;1,900&display=swap');
+
+* {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-left select {
+    width: 150px;
+}
+
+.navbar-center .timer {
+    font-weight: bold;
+}
+
+.navbar-right button {
+    background-color: #41baa6;
+    color: white;
+    border: 1px solid #41baa6;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-left, .footer-center, .footer-right {
+    text-align: center;
+}
+
+.footer-left span, .footer-center span, .footer-right span {
+    font-weight: bold;
+}
+
+.number {
+    font-size: 170px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000; /* Cor preta */
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
